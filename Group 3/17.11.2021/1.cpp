@@ -9,6 +9,7 @@ int main(){
     st.push(2);
     st.push(-4);
     st.push(12);
+    
     while(!st.empty()){
         printf("The size of the stack is: %d\nThe top element is: %d\n", st.size(), st.top());
         st.pop();
