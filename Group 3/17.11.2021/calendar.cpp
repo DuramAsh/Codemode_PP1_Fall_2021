@@ -13,6 +13,21 @@ bool compik(pair<pair<int, int>, int> &p1, pair<pair<int, int>, int> &p2){
 
 int main(){
 
+    string s;
+    cin >> s;
+    string arr[3];
+    int cnt = 0;
+    string temp = "";
+    for(int i = 0; i < s.size(); ++i){
+        if(s[i] == '-'){
+            arr[cnt] = temp;
+            temp = "";
+            cnt++;
+        }else{
+            temp+= s[i];
+        }
+    }
+
     vector <pair<pair<int, int>, int> > v;
     v.push_back(make_pair(make_pair(13, 5), 2002));
     v.push_back(make_pair(make_pair(12, 5), 2002));
