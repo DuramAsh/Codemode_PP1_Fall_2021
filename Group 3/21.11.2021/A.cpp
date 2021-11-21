@@ -18,8 +18,8 @@ int main(){
     vector<string> ans;
 
 
-    while(ans.size() < m){
-        
+    while( ans.size() < m ){
+
         pair<string, float> current = q.front();
         q.pop();
 
