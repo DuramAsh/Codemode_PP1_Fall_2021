@@ -1,2 +1,7 @@
-qwe asd
-(113+119+101) - (97+115+100) = n
+6 3
+Darmen 0
+Bauyrzhan 15.0
+Nurkanat 12.5
+Amina 14.9
+Yerlan 15.1
+Zhaksylyq 10.0
