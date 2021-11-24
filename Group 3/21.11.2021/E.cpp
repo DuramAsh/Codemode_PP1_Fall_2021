@@ -20,7 +20,7 @@ int main(){
     for(int i = 0; i < k; ++i){
         cin >> numbers[i];
     }
-
+    
     set<string> temp;
 
     for(int i = 0; i < k; ++i){
